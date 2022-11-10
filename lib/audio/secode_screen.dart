@@ -27,7 +27,7 @@ class _first_ScreenState extends State<first_Screen> {
     super.initState();
 
     assetsAudioPlayer.open(
-      Audio("${Provider.of<top_Provider>(context,listen: false)!.Datapick?.Audio}"),
+      Audio("${Provider.of<top_Provider>(context,listen: false).Datapick?.Audio}"),
       autoStart: false,
       showNotification:true,
     );
